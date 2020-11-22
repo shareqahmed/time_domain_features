@@ -13,8 +13,8 @@
 
 <br>
 
-## :dart: About ##
-This notebook implements useful statistical functions on rolling/moving/sliding windows, including Mean, RMS, Variance, Skewness, Kurtosis and Standard Deviation. Both fixed-length and variable-length window iteration can be changed in the function. The functions are mapped in a dictionary `function_order`as:
+## :dart: Time Domain Running Window Statistical Features  ##
+This notebook implements useful statistical functions on rolling/moving/sliding windows, including Mean, RMS, Variance, Skewness, Kurtosis and Standard Deviation. Both fixed-length and variable-length window iteration can be changed in the function. Suppose we have a function `running_kur(window, vector)` we can set any number for `window` and the input or output data for `vector`. The functions are mapped in a dictionary `function_order`as:
 | Operation        | Key     | Value          | Comments |
 | ---------------- |:-------:|:--------------:|-----------------------------|
 | Mean             | r_m     | running_mean   | Arithmetic mean of window values |
@@ -24,15 +24,20 @@ This notebook implements useful statistical functions on rolling/moving/sliding 
 | Skew             | r_skew  | running_skew   | Skewness of the window |
 | Kurtosis         | r_kur   | running_kur    | Kurtosis of the window |
 
-Suppose we have a list of integer values `x` and we want to find the maximum of each window of 3 values. We could use Python's `max()` function and write `[max(x[i:i+3]) for i in range(len(x) - 2)]` to do this, for example.
 
-But applying builtin Python's functions (like `max()` and `sum()`) to a window becomes increasingly slow as the window gets larger.
-Time Domain Running Window Statistical Features 
-## :sparkles: Output Features ##
+## :sparkles: Data  ##
+The type of input and output variables can be changed. 
+The data had 5 Input types as:
+:heavy_check_mark: INPUT_01;\
+:heavy_check_mark: INPUT_02;\
+:heavy_check_mark: INPUT_03;\
+:heavy_check_mark: INPUT_04;\
+:heavy_check_mark: INPUT_05;\
 
-:heavy_check_mark: Feature 1: a_sensor;\
-:heavy_check_mark: Feature 2: b_sensor;\
-:heavy_check_mark: Feature 3: c_sensor;
+The data has 3 types of Output sensors:
+:heavy_check_mark: a_sensor: quantity=5;\
+:heavy_check_mark: b_sensor: quantity=2;\
+:heavy_check_mark: c_sensor: quantity=1;\
 
 ## :rocket: Technologies ##
 
