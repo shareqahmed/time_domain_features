@@ -15,13 +15,12 @@
 
 ## :dart: About ##
 
-Describe your project
+Time Domain Running Window Statistical Features 
+## :sparkles: Output Features ##
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Feature 1: a_sensor;\
+:heavy_check_mark: Feature 2: b_sensor;\
+:heavy_check_mark: Feature 3: c_sensor;
 
 ## :rocket: Technologies ##
 
