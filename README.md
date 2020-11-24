@@ -26,18 +26,8 @@ This notebook implements useful statistical functions on rolling/moving/sliding 
 
 
 ## :sparkles: Data  ##
-The type of input and output variables can be changed.\
-The data had 5 Input types as:\
-:heavy_check_mark: `INPUT_01`;\
-:heavy_check_mark: `INPUT_02`;\
-:heavy_check_mark: `INPUT_03`;\
-:heavy_check_mark: `INPUT_04`;\
-:heavy_check_mark: `INPUT_0`5;\
 
-The data has 3 types of Output sensors:\
-:heavy_check_mark: `a_sensor`: quantity=5;\
-:heavy_check_mark: `b_sensor`: quantity=2;\
-:heavy_check_mark: `c_sensor`: quantity=1;\
+
 
 ## :rocket: Technologies ##
 
