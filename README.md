@@ -51,7 +51,7 @@ $ cd time_domain_features
 
 ```
 
-Made with :heart: by <a href="https://github.com/shareqahmed" target="_blank">shareqahmed</a>
+Made by <a href="https://github.com/shareqahmed" target="_blank">shareqahmed</a>
 
 &#xa0;
 
